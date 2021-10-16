@@ -82,7 +82,7 @@ class LoginViewController: UIViewController {
     //MARK: - Setup
     func setupTextFieldDelegates() {
         emailTextField.addTarget(self, action: #selector(textFieldDidChange(_: )), for: .editingChanged)
-        passwordTextField.addTarget(self, action: #selector(textFieldDidChange(_: )), for: .editingChanged)
+   //     passwordTextField.addTarget(self, action: #selector(textFieldDidChange(_: )), for: .editingChanged)
         repeatPasswordTextField.addTarget(self, action: #selector(textFieldDidChange(_: )), for: .editingChanged)
     }
     
