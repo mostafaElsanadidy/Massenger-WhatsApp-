@@ -40,8 +40,9 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.navigationController?.navigationBar.isHidden = true
+
         setupTextFieldDelegates()
-        updateUIFor(login: isLogin)
+   //     updateUIFor(login: isLogin)
         isLogin.toggle()
     }
     
