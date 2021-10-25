@@ -1,0 +1,1 @@
+../../../SKPhotoBrowser/SKPhotoBrowser/extensions/UIImage+animatedGIF.h

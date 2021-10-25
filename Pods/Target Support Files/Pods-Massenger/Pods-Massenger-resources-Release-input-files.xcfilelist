@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Massenger/Pods-Massenger-resources.sh
+${PODS_ROOT}/Gallery/Resources/Gallery.bundle
+${PODS_ROOT}/MessageKit/Sources/Assets.xcassets
+${PODS_ROOT}/SKPhotoBrowser/SKPhotoBrowser/SKPhotoBrowser.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle

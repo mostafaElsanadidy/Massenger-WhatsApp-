@@ -20,6 +20,7 @@
 		AE5FD5CA270F2E7000AFC38B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE5FD5C9270F2E7000AFC38B /* LoginViewController.xib */; };
 		AEC5BD702715E7A900B8D63B /* Reload.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC5BD6F2715E7A900B8D63B /* Reload.swift */; };
 		AEC5BD7227176A5C00B8D63B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEC5BD7127176A5A00B8D63B /* GoogleService-Info.plist */; };
+		AEE67ADA272719F100091BDA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE67AD9272719ED00091BDA /* User.swift */; };
 		B1F9CF4124651E46AA437A36 /* libPods-Massenger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA2E69F133534484D91BD71 /* libPods-Massenger.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		AE5FD5C9270F2E7000AFC38B /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		AEC5BD6F2715E7A900B8D63B /* Reload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reload.swift; sourceTree = "<group>"; };
 		AEC5BD7127176A5A00B8D63B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AEE67AD9272719ED00091BDA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C4178EFAC34E5A24330CED1C /* Pods-Massenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Massenger.debug.xcconfig"; path = "Target Support Files/Pods-Massenger/Pods-Massenger.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +145,7 @@
 				AE5FD5A5270F1A4900AFC38B /* Info.plist */,
 				AEC5BD7127176A5A00B8D63B /* GoogleService-Info.plist */,
 				AE5FD59D270F19D000AFC38B /* Massenger.xcdatamodeld */,
+				AEE67ADB272719F100091BDA /* Model */,
 			);
 			path = Massenger;
 			sourceTree = "<group>";
@@ -199,6 +202,14 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
+		AEE67ADB272719F100091BDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEE67AD9272719ED00091BDA /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -210,6 +221,7 @@
 				AE5FD58D270F19CD00AFC38B /* Sources */,
 				AE5FD58E270F19CD00AFC38B /* Frameworks */,
 				AE5FD58F270F19CD00AFC38B /* Resources */,
+				9805E5F4917353B2563DA5BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -329,6 +341,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9805E5F4917353B2563DA5BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Massenger/Pods-Massenger-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Massenger/Pods-Massenger-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Massenger/Pods-Massenger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9CCA3BB03228A369753EC575 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,6 +389,7 @@
 			files = (
 				AEC5BD702715E7A900B8D63B /* Reload.swift in Sources */,
 				AE5FD599270F19CF00AFC38B /* LoginViewController.swift in Sources */,
+				AEE67ADA272719F100091BDA /* User.swift in Sources */,
 				AE5FD595270F19CE00AFC38B /* AppDelegate.swift in Sources */,
 				AE5FD597270F19CF00AFC38B /* SceneDelegate.swift in Sources */,
 				AE5FD59F270F19D000AFC38B /* Massenger.xcdatamodeld in Sources */,
